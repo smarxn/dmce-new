@@ -4,6 +4,7 @@
     // DOM ready
     // If a link has a dropdown, add sub menu toggle.
     $("nav ul li a:not(:only-child)").click(function (e) {
+      console.log("is working");
       $(this).siblings(".nav-dropdown").toggle();
       // Close one dropdown when selecting another
       $(".nav-dropdown").not($(this).siblings()).hide();
