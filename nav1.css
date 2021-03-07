@@ -104,12 +104,9 @@ nav ul li ul li a {
 /*  Main Nav (Mobile Navigation) 👇 */
 .nav-mobile {
   display: none;
-  position: absolute;
   top: 0;
   right: 0;
   background: var(--primaryColor);
-  height: 70px;
-  width: 70px;
   z-index: 101;
 }
 @media only screen and (max-width: 798px) {
@@ -151,7 +148,7 @@ nav ul li ul li a {
   left: 18px;
   top: 22px;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
+  padding: 190px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,
