@@ -85,7 +85,7 @@ $(document).ready(function () {
 //testimonial section 👇
 $(document).ready(function () {
   $("#testimonial-slider").owlCarousel({
-    items: 3, //items to be shown
+    items: 1, //items to be shown,
     itemsDesktop: [1199, 2],
     itemsDesktopSmall: [980, 1],
     itemsTablet: [768, 1],
